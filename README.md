@@ -4,3 +4,4 @@ editing on replit https://whk.123456787654.repl.run and https://repl.it/@1234567
 A comment box for the community, an IFRAME for a whereby meeting
 ### What this ***doesn't*** have
 Everything
+I recomend you remix php-poc on glitch and then add contents in index.php there, then create inrg.txt in public. That way rest of server content would be stored in backend so secure.
