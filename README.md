@@ -1,10 +1,16 @@
 # just created recently.
 editing on replit https://whk.123456787654.repl.run and https://repl.it/@123456787654/whk
-### What this ***does*** have
-A comment box for the community, an IFRAME for a whereby meeting
-### What this ***doesn't*** have
-Everything
-I recomend you remix php-poc on glitch and then add contents in index.php there, then create inrg.txt in public. That way rest of server content would be stored in backend so secure.
-### Some notes
-Most of the notes are provided at the begenning of the source code.
-A concept of a login sys is also provided
+### some things.
+[$user]-iframe-meeting is file in backend. contains code that iframes user's next meeting
+works-[$ip] - contains work needed to do of IP addr
+
+===
+login concept
+if $_GET[user] and $_GET[ip] match then set user to $_GET['user']
+set IP to server get IP $_SERVER['remote-addr']
+
+===
+$user and $ip declaring tihng
+$user = "Guest";//remove if a login sys was made which declares it
+$ip=$_SERVER['remote-addr'];;
+$works="none"
